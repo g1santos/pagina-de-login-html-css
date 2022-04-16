@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica;
+}
+
+body {
+    background-image: linear-gradient(180deg, blue, purple);
+}
+.conteiner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.card {
+    background-color: #ffffff50;
+    padding: 60px;
+    border-radius: 8px;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.label-float {
+    position: relative;
+    padding-top: 35px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.label-float label {
+    font-size: 17px;
+    margin-bottom: 10px;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+input {
+    width: 100%;
+    padding: 7px 7px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid ;
+    background-color: transparent;
+    outline: none;
+    min-width: 210px;
+    font-size: 17px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+
+input:invalid {
+    border-color:#ff0000;
+}
+
+input:valid {
+    border-color: #08ad08;
+}
+.justify-content {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: purple;
+    border-color: transparent;
+    padding: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease-out;
+}
+
+button:hover {
+    background-color: rgba(5, 5, 71, 0.918);
+    color: aliceblue;
+}
